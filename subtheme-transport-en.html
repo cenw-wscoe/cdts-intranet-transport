@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>Transport intranet theme template</title>
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<!-- Meta data -->
+		<meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
+		<!-- Meta data-->
+		<!-- Load closure template scripts -->
+		<script src="https://ssl-templates.services.gc.ca/app/cls/WET/gcintranet/v4_0_31/cdts/compiled/soyutils.js"></script>
+        <script src="https://ssl-templates.services.gc.ca/app/cls/WET/gcintranet/v4_0_31/cdts/compiled/wet-en.js"></script>
+        <link rel="stylesheet" href="./transport.css" />
+		<!-- Write closure template -->
+		<script>
+			document.write(wet.builder.refTop({
+				"cdnEnv": "prod",
+			}));
+		</script>
+	</head>
+	<body vocab="http://schema.org/" typeof="WebPage" class="transport">
+		<div id="def-top">
+		</div>
+		<!-- Write closure template -->
+		<script>
+			var defTop = document.getElementById("def-top");
+			defTop.outerHTML = wet.builder.top({
+				"cdnEnv": "prod",
+				"GCToolsModal" : true,
+				"lngLinks": [{
+					"lang": "fr",
+					"href": "subtheme-esdc-fr.shtml",
+					"text": "Français"
+				}],
+				"intranetTitle": [{
+					"href": "http://esdc.prv/en/index.shtml",
+					"text": " IntraWeb",
+					"boldText" : "Transport Canada"
+				}],
+                "subTheme" : "esdc",
+                "menuPath" : "./sitemenu-eng.html",
+				"customSearch": [{
+					"action" : "http://hrsdc.prv/cgi-bin/rhdcc-hrsdc/recherche-search.aspx",
+					"placeholder" : "Search the IntraWeb",
+					"method" : "get",
+					"hiddenInput" : [{
+						"name" : "k",
+						"value" : "en"
+					}, {
+						"name" : "l",
+						"value" : "eng"
+					}, {
+						"name" : "chk2",
+						"value" : "True"
+					}]
+				}]
+			});
+		</script>
+		<main property="mainContentOfPage" class="container">
+			<h1 property="name" id="wb-cont">ESDC intranet theme template</h1>
+			<section>
+				<h2 class="wb-prettify all-pre"><em>var defTop</em> "top" <code>script</code> element</h2>
+<pre class="prettyprint"><code>var defTop = document.getElementById("def-top");
+	defTop.outerHTML = wet.builder.top({
+		"cdnEnv": "prod",
+		"GCToolsModal" : true,
+		"lngLinks": [{
+			"lang": "fr",
+			"href": "subtheme-esdc-fr.shtml",
+			"text": "Français"
+		}],
+		"intranetTitle": [{
+			"href": "http://esdc.prv/en/index.shtml",
+			"text": " IntraWeb",
+			"boldText" : "Transport Canada"
+		}],
+		"subTheme" : "esdc",
+		"menuPath" : "../ajax/sitemenu-eng.html",
+		"customSearch": [{
+			"action" : "http://hrsdc.prv/cgi-bin/rhdcc-hrsdc/recherche-search.aspx",
+			"placeholder" : "Search the IntraWeb",
+			"method" : "get",
+			"hiddenInput" : [{
+				"name" : "k",
+				"value" : "en"
+			}, {
+				"name" : "l",
+				"value" : "eng"
+			}, {
+				"name" : "chk2",
+				"value" : "True"
+			}]
+		}]
+	});</code></pre>
+			</section>
+
+			<div id="def-preFooter">
+			</div>
+			<!-- Write closure template -->
+			<script>
+				var defPreFooter = document.getElementById("def-preFooter");
+				defPreFooter.outerHTML = wet.builder.preFooter({
+					"cdnEnv": "prod",
+					"dateModified": "2019-07-31"
+				});
+			</script>
+		</main>
+		<div id="def-footer">
+		</div>
+		<!-- Write closure template -->
+		<script>
+			var defFooter = document.getElementById("def-footer");
+			defFooter.outerHTML = wet.builder.appFooter({
+				"cdnEnv": "prod",
+				"footerSections":[{
+					"sectionName":"Custom Section 1",
+					"customFooterLinks":[{
+						"href":"#",
+						"text":"link1-1-new Window",
+						"newWindow":true
+					}, {
+						"href":"#",
+						"text":"link1-2-same Window",
+						"newWindow":false
+					}, {
+						"href":"#",
+						"text":"link1-3-same Window",
+						"newWindow":false
+					}]
+				}, {
+
+					"sectionName":"Custom Section 2",
+					"customFooterLinks":[{
+						"href":"#",
+						"text":"link2-1-new Window",
+						"newWindow":true
+					}, {
+						"href":"#",
+						"text":"link2-2-same Window",
+						"newWindow":false
+					}, {
+						"href":"#",
+						"text":"link2-3-same Window",
+						"newWindow":false
+					}]
+				}, {
+
+					"sectionName":"Custom Section 3",
+					"customFooterLinks":[{
+						"href":"#",
+						"text":"link3-1-new Window",
+						"newWindow":true
+					}, {
+						"href":"#",
+						"text":"link3-2-same Window",
+						"newWindow":false
+					}, {
+						"href":"#",
+						"text":"link3-3-same Window",
+						"newWindow":false
+					}]
+				}, {
+
+					"sectionName":"Custom Section 4",
+					"customFooterLinks":[{
+						"href":"#",
+						"text":"link4-1-new Window",
+						"newWindow":true
+					}, {
+						"href":"#",
+						"text":"link4-2-same Window",
+						"newWindow":false
+					}, {
+						"href":"#",
+						"text":"link4-3-same Window",
+						"newWindow":false
+				 	}]
+				}]
+			});
+		</script>
+		<!-- Write closure template -->
+		<script>
+			document.write(wet.builder.refFooter({
+				"cdnEnv": "prod"
+			}));
+		</script>
+	</body>
+</html>
